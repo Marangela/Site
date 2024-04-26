@@ -1,0 +1,109 @@
+body {
+    background-color: rgba(0, 255, 255, 0.244);
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 90%;
+    margin: auto;
+
+}
+
+.nav-header>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 60px;
+}
+
+.nav-header li:first-child {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 6rem;
+
+}
+
+.nav-header button {
+    background-color: transparent;
+    border-radius: 20px;
+    width: 90px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* .nav-header li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+.nav-header>ul>li:last-child {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 0 7rem;
+
+}
+
+.Principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 100px;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ModoDeFazer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 25px 10%; */
+    margin-bottom: 75px;
+}
+
+.Forma{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ModoDeFazer img{
+
+    display: flex;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+
+}
+
+/* .Forma >h1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-family: var(--ff-i);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--black);
+} */
